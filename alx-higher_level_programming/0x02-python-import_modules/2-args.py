@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+if __name__ == '__main__':
+    import sys
+    v = sys.argv
+    del v[0]
+    if len(v) == 1:
+        print(f"{len(v):d} argument:")
+    elif len(v) == 0:
+        print(f"{len(v):d} arguments.")
+    else:
+        print(f"{len(v):d} arguments:")
+
+    for i, arg in enumerate(v, start=1):
+        print(f"{i:d}: {arg}")

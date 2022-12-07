@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+def remove_char_at(str, n):
+    cpy = ""
+    for i, c in enumerate(str, start = 1):
+        if i == n:
+            continue
+        else:
+            cpy += c
+    print(cpy)
+    return (cpy)
