@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-ans=[]
 def search_replace(my_list, search, replace):
+    ans = []
     for i in my_list:
         if i == search:
             i = replace

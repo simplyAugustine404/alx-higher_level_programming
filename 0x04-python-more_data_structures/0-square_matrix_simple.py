@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-ans = []
 def square_matrix_simple(matrix=[]):
+    ans = []
     for i in matrix:
         nums = []
         for j in i:
