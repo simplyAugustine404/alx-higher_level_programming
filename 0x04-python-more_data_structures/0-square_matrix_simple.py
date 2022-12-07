@@ -1,0 +1,9 @@
+#!/user/bin/python3
+ans = []
+def square_matrix_simple(matrix=[]):
+    for i in matrix:
+        nums = []
+        for j in i:
+            nums.append(j ** 2)
+        ans.append(nums)
+    return ans
