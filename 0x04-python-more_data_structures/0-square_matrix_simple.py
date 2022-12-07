@@ -1,4 +1,4 @@
-#!/user/bin/python3
+#!/usr/bin/python3
 ans = []
 def square_matrix_simple(matrix=[]):
     for i in matrix:
