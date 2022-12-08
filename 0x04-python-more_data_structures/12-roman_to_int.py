@@ -20,3 +20,4 @@ def roman_to_int(roman_string):
             ans += 1000
         else:
             return None
+    return ans
