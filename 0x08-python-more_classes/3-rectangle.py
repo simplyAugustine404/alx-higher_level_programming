@@ -17,6 +17,7 @@ class Rectangle:
     def width(self):
         """Sets/gets the rectangles width"""
         return self.__width
+
     def width(self, value):
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
@@ -29,6 +30,7 @@ class Rectangle:
     def height(self):
         """Sets/gets the rectangles width"""
         return self.__height
+
     def height(self, value):
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
