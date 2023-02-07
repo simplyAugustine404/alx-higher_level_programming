@@ -20,6 +20,7 @@ class Rectangle:
     def width(self):
         """Get/set the width of the rectangle"""
         return self.__width
+
     @width.setter
     def width(self, value):
         if value != int(value):
@@ -33,6 +34,7 @@ class Rectangle:
     def height(self):
         """Get/set the height of the rectangle"""
         return self.__height
+
     @height.setter
     def height(self, value):
         if value != int(value):
